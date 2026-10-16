@@ -1,0 +1,61 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1556648011-e01aca870a81?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D");
+    background-position: center;
+    background-size: cover;
+    background-image: ;
+    
+}
+#main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    height: 400px;
+    background-color: rgba(95, 247, 247, 0.501);
+    border: 5px solid rgb(59, 253, 211);
+    padding: 2opx;
+}
+#main #cir{
+width: 140px;
+height: 140px;
+border-radius:200px;
+background-color: azure;
+background-image: url("https://images.unsplash.com/photo-1560851691-ebb64b584d3d?q=80&w=1199&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D");
+background-position: center;
+background-size: cover;
+}
+#title{
+    width: 150px;
+    height: 40px;
+    background-color: rgba(190, 242, 139, 0.795);
+    border-radius: 20px;
+    top: 40px;
+    position: absolute;
+    left: 100px;
+    border: 2px solid rgb(23, 22, 22);
+}
+#main p{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+#Page button {
+    position: absolute;
+    top: 350px;
+    left: 180px;
+    bottom: 10px;
+    background-color: rgba(107, 227, 187, 0.81);
+    font-weight: bolder;
+    border-radius: 10px;
+}
